@@ -1,0 +1,123 @@
+.navbar{
+    background-color:gray;
+    position:fixed;
+    width:83%;
+    z-index: 999;
+    font-family: 'RocknRoll One', sans-serif;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 70px; 
+    margin: auto;
+} 
+.navbar .logo a{
+    color:white;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    text-decoration: none;
+    color:white;
+    padding: 8px 20px;
+    transition: all 0.5s ease;
+    font-size:17px;
+}
+.carousel-item{
+     padding: 20px 40px; 
+}
+.carousel-inner{
+    height: 600px;
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px rgb(99, 97, 97);
+    border-radius: 10px;
+}
+.card img{
+    height: 300px;
+    /* border-radius: 45%; */
+}
+.card-footer {
+    background-color: white;
+    border-top: none;
+}
+#caro{
+    margin-bottom:50px ;
+}
+#grocery{
+    padding-top: 80px;
+    margin-bottom:50px ;
+}
+#medicine{
+    padding-top: 80px;
+    margin-bottom:50px ;
+}
+#electronics{
+    padding-top: 80px;
+    margin-bottom:50px ;
+}
+#book{
+    padding-top: 80px;
+    margin-bottom:50px ;
+}
+#food{
+    padding-top: 80px;
+    margin-bottom:50px ;
+}
+.button{
+    background-image: linear-gradient(to bottom, #81465d 0%,gray 100%);
+    /* background-image:rgb(67, 67, 112); */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor:pointer;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+ .title{
+    position: relative;
+    font-family: 'RocknRoll One', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500; 
+    /* margin-bottom: 40px; */
+    padding-bottom: 20px;
+}
+.currency{
+    font-size:1.5em;
+  } 
+.taka{
+    font-size: 1em;
+}
+ #form{
+     width:50%;
+    flex-direction: column;
+    box-sizing: border-box; 
+    align-items: center;
+    margin: 15px 0px;
+    background-color:grey;
+} 
+.input{
+    padding: 10px;
+    margin:12px;
+    width: 80%;
+    outline: none;
+    border:2px solid rgb(230, 11, 11);
+}
+.part{
+    justify-content: center;
+}
+
