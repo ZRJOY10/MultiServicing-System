@@ -21,6 +21,10 @@ include('login_check.php');
                 <li><a href="category.php">Category</a></li>
                 <li><a href="order.php">Order</a></li>
                 <li><a href="logout.php">Logout</a></li>
-            </ul>
+                <li>
+                <a href="<?php echo 'http://localhost/multi_servicing_system/';?>admin/home_page.php">Visite Site</a>
+        
+                </li>
+             </ul>
         </div>  
     </div>
