@@ -37,6 +37,7 @@ h1{
     margin: 0;
     padding: 0;
     font-weight: bold;
+    font-size: 20px;
 
 }
 .login input{
@@ -52,15 +53,18 @@ h1{
     outline: none;
     height:40px;
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
 
 }
 .login input[type="submit"]
 {
     border: none;
+    margin-left: 23px;
+    margin-top: 20px;
     outline: none;
     height:40px;
-    background:royalblue;
+    width:80%;
+    background:gray;
     color: #fff;
     font-size: 18px;
     border-radius: 20px;
@@ -69,6 +73,6 @@ h1{
 .login input[type="submit"]:hover
 {
     cursor: pointer;
-    background:#000;
+    background:rgb(196, 156, 196);
     color:#000;
 }
