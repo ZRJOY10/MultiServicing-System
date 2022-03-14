@@ -60,7 +60,7 @@
         {
             $price1 = $_POST['price1'];  
             $price2=$_POST['price2'];
-            $sql3="SELECT * FROM category where price>='$price1' and price<='$price2' order by price";
+            $sql3="SELECT * FROM category where price>'$price1' and price<'$price2' order by price";
             $res3 = mysqli_query($conn,$sql3);
             $count3=mysqli_num_rows($res3);
             $sn=1;
@@ -212,6 +212,14 @@
 
 
 
+
+
+
+
+
+
+
+
            <br><br><br>
      <a href="<?php echo 'http://localhost/multi_servicing_system/'?>admin/add-category.php" class="btn-primary">Add Category</a>
 
@@ -295,7 +303,11 @@
                 <?php
             }
             
+            
+
 ?>
+
+
 
      </table>
 </div>

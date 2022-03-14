@@ -58,7 +58,7 @@
                  </td>
              </tr>
              <tr>
-                 <td colspan="2">
+                 <td clospan="2">
                  <input type="hidden" name="price" value="<?php echo $price;?>">
                         <input type="hidden" name="id" value="<?php echo $id;?>">
                         <input type="submit" name="submit" value="Update Order" class="btn-primary">
@@ -82,7 +82,7 @@ if(isset($_POST['submit']))
 
     $to_email = $c_email;
     $subject = "Delivery Report:";
-    $body ="The product is ". $status;
+    $body ="Dear Customer,Your product is ". $status .'.Stay tuned with us.Thank You';
     $headers = "From: multiservicingsystem@gmail.com";
 
     if (mail($to_email, $subject, $body, $headers)) {
@@ -99,7 +99,7 @@ if(isset($_POST['submit']))
     if($res2==true)
     {
         $_SESSION['update']="<div class='success'>Order Updated Successfully.</div>";
-        header('location:order.php');
+        header('location:'.'http://localhost/multi_servicing_system/'.'admin/order.php');
     }
 }
 

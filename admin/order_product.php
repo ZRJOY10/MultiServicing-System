@@ -3,7 +3,7 @@
 
 <head>
     <title>Order</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/order.css">
     <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
 </head>
 
@@ -13,7 +13,7 @@
         <div class="max-width">
             <form action="" method="POST" enctype="multipart/form-data">
             <fieldset class="part">
-                <legend>Selected Items</legend>     
+                <legend>Selected Items</legend>
 
                         <?php
                                 if(isset($_GET['product_id']))
@@ -92,7 +92,7 @@ if(isset($_POST['submit']))
 
     $res2=mysqli_query($conn,$sql2);
     if($res2==true){
-        header('location:project.php');
+        header('location:'.'http://localhost/multi_servicing_system/admin/home_page.php');
     }
 }
 

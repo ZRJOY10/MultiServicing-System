@@ -1,3 +1,4 @@
+
 <?php include('repeat/menu.php'); ?>
     <div class="main">
     <div class="box">
@@ -60,7 +61,7 @@
          ?>
          <h1><?php echo $total_revenue;?></h1>
          <br>
-         Revenue 
+         Revenue Generated
      </div>
      <div class="clearfix"></div>
     </div>
