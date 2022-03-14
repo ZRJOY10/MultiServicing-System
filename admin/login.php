@@ -1,17 +1,17 @@
-
 <?php
 
- include('repeat/connection.php');?>
+include('repeat/connection.php');?>
   
 
 <html>
     <head>
         <title>Login Multi_servicing_system</title>
-        <link rel="stylesheet" href="../css/log.css">
+        <link rel="stylesheet" href="../css/login_page.css">
     </head>
     <body>
         <div class="login">
-            <h1>login</h1>
+           <img src="../images2/logo2.png" alt="" class="avatar">
+           <h1>Login Here</h1>
 
             <?php
 
@@ -27,14 +27,11 @@
                     }
             ?><br>
 
-
             <form action="" class="text-center" method="POST" >
-                Username: <br>
+                <p>Username</p>
                 <input type="text" name="username" placeholder="Enter Username">
-                <br><br>
-                Password : <br>
+                <p>Password</p>
                 <input type="password" name="password" placeholder="Enter Password">
-                <br>
                 <input type="submit" name="submit" value="Login" class="btn-primary">
             </form>
 

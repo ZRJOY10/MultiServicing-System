@@ -3,7 +3,7 @@
 
 <head>
     <title>Order</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/order.css">
     <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
 </head>
 
@@ -92,7 +92,7 @@ if(isset($_POST['submit']))
 
     $res2=mysqli_query($conn,$sql2);
     if($res2==true){
-        header('location:'.'http://localhost/multi_servicing_system/admin/project.php');
+        header('location:'.'http://localhost/multi_servicing_system/admin/home_page.php');
     }
 }
 

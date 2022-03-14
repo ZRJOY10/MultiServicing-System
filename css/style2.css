@@ -8,7 +8,7 @@
 }
 
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'RocknRoll One',sans-serif;
     margin:0; padding:0;
     box-sizing: border-box;
     outline: none; border:none;
@@ -44,7 +44,9 @@ body{
 section{
     padding:2rem 7%;
 }
-
+.multi{
+    color:white;
+}
 .heading{
     text-align: center;
     color:#fff;
@@ -220,8 +222,8 @@ section{
 }
 
 .home .content h3{
-    font-size: 6rem;
-    text-transform: uppercase;
+    font-size: 3.8rem;
+   
     color:#fff;
 }
 
@@ -267,7 +269,7 @@ section{
 .menu .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:1.5rem;
+    gap:1.3rem;
 }
 
 .menu .box-container .box{
@@ -277,7 +279,7 @@ section{
 }
 
 .menu .box-container .box img {
-    height: 15rem;
+    height: 20rem;
 }
 
 .menu .box-container .box h3{
@@ -288,8 +290,12 @@ section{
 
 .menu .box-container .box .price{
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     padding:.5rem 0;
+}
+.menu .box-container .box .des{
+    font-size:1rem;
+
 }
 
 .menu .box-container .box .price span{
@@ -418,17 +424,17 @@ section{
 
 .contact .row form h3{
     text-transform: uppercase;
-    font-size: 3.5rem;
-    color:#fff;
+    font-size: 3rem;
+    color:var(--main-color);
 }
 
 .contact .row form .inputBox{
     display: flex;
     align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    background:var(--bg);
-    border:var(--border);
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    
+
 }
 
 .contact .row form .inputBox span{
