@@ -7,7 +7,7 @@
 <html>
     <head>
         <title>Login Multi_servicing_system</title>
-        <link rel="stylesheet" href="../css/login.css">
+        <link rel="stylesheet" href="../css/log.css">
     </head>
     <body>
         <div class="login">

@@ -28,13 +28,13 @@
              else
              {
                  $_SESSION['no-category-found'] = "<div class='error'>Category not found.</div>";
-                 header('location:category.php');
+                 header('location:'.'http://localhost/multi_servicing_system/'.'admin/category.php');
  
              }
           }
           else
           {
-               header('location:category.php');
+               header('location:'.'http://localhost/multi_servicing_system/'.'admin/category.php');
  
           }
         ?>
@@ -104,7 +104,7 @@
               $featured = $_POST['featured'];
               $active = $_POST['active'];
               $typ=$_POST['typ'];
-             
+
  
               if(isset($_FILES['image']['name']))
               {
@@ -115,23 +115,22 @@
                    
                      $ext = end(explode('.',$image_name));
                
-                   
+                  
                    $image_name ="Category_".rand(000,999).'.'.$ext;
  
                    $source_path = $_FILES['image']['tmp_name'];
                    $destination_path = "../images/category-img/".$image_name;
  
-                   
+            
                    $upload = move_uploaded_file( $source_path , $destination_path );
  
-                   
                    if($upload==false)
                    {
                        
                        $_SESSION['upload'] = "<div class='error'>Failed to Upload Image.</div>";
-                       
-                       header('location:category.php');
-            
+                    
+                       header('location:'.'http://localhost/multi_servicing_system/'.'admin/category.php');
+                   
                        die();
                    }                    
  
@@ -164,12 +163,12 @@
                if($res2==true)
                {
                    $_SESSION['update'] = "<div class = 'success'> Category Updated Successfully.</div>";
-                   header('location:category.php');
+                   header('location:'.'http://localhost/multi_servicing_system/'.'admin/category.php');
                }
                else
                {
                    $_SESSION['update'] = "<div class = 'error'> Failed tp  Update Category.</div>";
-                   header('location:category.php');
+                   header('location:'.'http://localhost/multi_servicing_system/'.'admin/category.php');
                }
           }
        ?>

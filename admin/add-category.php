@@ -1,7 +1,6 @@
 <?php include('repeat/menu.php'); ?>
  
 <div class="main">
-    
     <div class="box">
         <h1>Add Category</h1>
         <br><br>
@@ -51,7 +50,7 @@
                   <tr>
                           <td>Description: </td>
                           <td>
-                              <textarea name="description" cols="30" rows="5" placeholder="Description of the product"></textarea>
+                              <textarea name="description" cols="30" rows="5" placeholder="Description of the Food"></textarea>
                           </td>
                       </tr>
  
