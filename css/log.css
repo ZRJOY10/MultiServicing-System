@@ -6,7 +6,7 @@
 .login{
     width: 350px;
     height: 420px;
-    background:rgb(187, 181, 181); 
+    background:#000; 
     color: #fff;
     top:50%;
     left:50%;
@@ -69,6 +69,6 @@ h1{
 .login input[type="submit"]:hover
 {
     cursor: pointer;
-    background: #ffc107;
+    background:#000;
     color:#000;
 }
